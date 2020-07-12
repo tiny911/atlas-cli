@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/infobloxopen/atlas-cli/atlas/application"
-	"github.com/infobloxopen/atlas-cli/atlas/application/helm"
-	"github.com/infobloxopen/atlas-cli/atlas/utill"
+	"github.com/tiny/atlas-cli/atlas/application"
+	"github.com/tiny/atlas-cli/atlas/application/helm"
+	"github.com/tiny/atlas-cli/atlas/utill"
 	"golang.org/x/tools/imports"
 )
 

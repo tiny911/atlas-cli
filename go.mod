@@ -1,4 +1,4 @@
-module github.com/infobloxopen/atlas-cli
+module github.com/tiny/atlas-cli
 
 go 1.14
 

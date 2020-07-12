@@ -3,7 +3,7 @@ package update
 import (
 	"flag"
 	"fmt"
-	"github.com/infobloxopen/atlas-cli/atlas/application"
+	"github.com/tiny/atlas-cli/atlas/application"
 	"os"
 )
 

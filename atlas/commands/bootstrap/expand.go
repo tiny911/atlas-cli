@@ -3,7 +3,7 @@ package bootstrap
 import (
 	"bufio"
 	"fmt"
-	"github.com/infobloxopen/atlas-cli/atlas/templates"
+	"github.com/tiny/atlas-cli/atlas/templates"
 	"github.com/jinzhu/inflection"
 	"io"
 	"log"

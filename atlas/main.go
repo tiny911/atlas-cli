@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/infobloxopen/atlas-cli/atlas/commands"
+	"github.com/tiny/atlas-cli/atlas/commands"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/infobloxopen/atlas-cli/atlas/application/helm"
-	"github.com/infobloxopen/atlas-cli/atlas/templates"
-	"github.com/infobloxopen/atlas-cli/atlas/utill"
+	"github.com/tiny/atlas-cli/atlas/application/helm"
+	"github.com/tiny/atlas-cli/atlas/templates"
+	"github.com/tiny/atlas-cli/atlas/utill"
 )
 
 // Application models the data that the templates need to render files
