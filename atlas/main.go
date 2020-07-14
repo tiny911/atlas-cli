@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tiny/atlas-cli/atlas/commands"
+	"github.com/tiny911/atlas-cli/atlas/commands"
 )
 
 func main() {

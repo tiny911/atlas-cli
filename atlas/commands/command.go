@@ -2,9 +2,9 @@ package commands
 
 import (
 	"flag"
-	"github.com/tiny/atlas-cli/atlas/commands/update"
+	"github.com/tiny911/atlas-cli/atlas/commands/update"
 
-	"github.com/tiny/atlas-cli/atlas/commands/bootstrap"
+	"github.com/tiny911/atlas-cli/atlas/commands/bootstrap"
 )
 
 // Command generically represents a command that is runnable via the atlas

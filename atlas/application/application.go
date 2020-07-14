@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/tiny/atlas-cli/atlas/application/helm"
-	"github.com/tiny/atlas-cli/atlas/templates"
-	"github.com/tiny/atlas-cli/atlas/utill"
+	"github.com/tiny911/atlas-cli/atlas/application/helm"
+	"github.com/tiny911/atlas-cli/atlas/templates"
+	"github.com/tiny911/atlas-cli/atlas/utill"
 )
 
 // Application models the data that the templates need to render files

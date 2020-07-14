@@ -1,6 +1,6 @@
 # Atlas CLI
 
-[![Build Status](https://travis-ci.org/tiny/atlas-cli.svg?branch=master)](https://travis-ci.org/tiny/atlas-cli) [![Go Report Card](https://goreportcard.com/badge/github.com/tiny/atlas-cli)](https://goreportcard.com/report/github.com/tiny/atlas-cli)
+[![Build Status](https://travis-ci.org/tiny911/atlas-cli.svg?branch=master)](https://travis-ci.org/tiny911/atlas-cli) [![Go Report Card](https://goreportcard.com/badge/github.com/tiny911/atlas-cli)](https://goreportcard.com/report/github.com/tiny911/atlas-cli)
 
 This command-line tool helps developers become productive on Atlas. It aims to provide a better development experience by reducing the initial time and effort it takes to build applications.
 
@@ -49,13 +49,13 @@ See the official golang-migrate [GitHub repository](https://github.com/golang-mi
 The following steps will install the `atlas` binary to your `$GOBIN` directory.
 
 ```sh
-$ go get github.com/tiny/atlas-cli/atlas
+$ go get github.com/tiny911/atlas-cli/atlas
 ```
 
 You're all set! Alternatively, you can clone the repository and install the binary manually.
 
 ```sh
-$ git clone https://github.com/tiny/atlas-cli.git
+$ git clone https://github.com/tiny911/atlas-cli.git
 $ cd atlas-cli
 $ make
 ```
@@ -299,6 +299,6 @@ make test-with-integration
 
 ### Adding New CLI Commands
 
-If you wish to add a new command to the Atlas CLI, please take a look at the [command interface](https://github.com/tiny/atlas-cli/blob/master/atlas/commands/command.go). This interface is intended to make adding new commands as minimally impactful to existing functionality.
+If you wish to add a new command to the Atlas CLI, please take a look at the [command interface](https://github.com/tiny911/atlas-cli/blob/master/atlas/commands/command.go). This interface is intended to make adding new commands as minimally impactful to existing functionality.
 
-To start out, consider looking at the [bootstrap command's implementation](https://github.com/tiny/atlas-cli/blob/master/atlas/commands/bootstrap/bootstrap.go#L43) of this interface.
+To start out, consider looking at the [bootstrap command's implementation](https://github.com/tiny911/atlas-cli/blob/master/atlas/commands/bootstrap/bootstrap.go#L43) of this interface.

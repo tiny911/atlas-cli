@@ -1,4 +1,4 @@
-module github.com/tiny/atlas-cli
+module github.com/tiny911/atlas-cli
 
 go 1.14
 
