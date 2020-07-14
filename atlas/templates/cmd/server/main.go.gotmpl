@@ -17,12 +17,12 @@ import (
 	"github.com/spf13/viper"
 	{{ if .WithPubsub }}"google.golang.org/grpc"{{ end }}
 
-	{{ if .WithGateway }}"github.com/tiny/atlas-app-toolkit/gateway"{{ end }}
-	{{ if .WithGateway }}"github.com/tiny/atlas-app-toolkit/requestid"{{ end }}
-	"github.com/tiny/atlas-app-toolkit/server"
+	{{ if .WithGateway }}"github.com/tiny911/atlas-app-toolkit/gateway"{{ end }}
+	{{ if .WithGateway }}"github.com/tiny911/atlas-app-toolkit/requestid"{{ end }}
+	"github.com/tiny911/atlas-app-toolkit/server"
 	{{ if .WithPubsub }}pubsubgrpc "github.com/infobloxopen/atlas-pubsub/grpc"{{ end }}
-	"github.com/tiny/atlas-app-toolkit/gorm/resource"
-	{{ if .WithHealth }}"github.com/tiny/atlas-app-toolkit/health"{{ end }}
+	"github.com/tiny911/atlas-app-toolkit/gorm/resource"
+	{{ if .WithHealth }}"github.com/tiny911/atlas-app-toolkit/health"{{ end }}
 )
 
 func main() {

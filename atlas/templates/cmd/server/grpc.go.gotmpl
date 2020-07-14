@@ -6,11 +6,11 @@ import (
 	{{- if .WithMetrics }}
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	{{- end }}
-	"github.com/tiny/atlas-app-toolkit/gateway"
+	"github.com/tiny911/atlas-app-toolkit/gateway"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
-	"github.com/tiny/atlas-app-toolkit/requestid"
+	"github.com/tiny911/atlas-app-toolkit/requestid"
 	{{ if .WithDatabase }}"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"{{ end }}
 )
